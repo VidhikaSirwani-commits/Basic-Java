@@ -25,5 +25,7 @@ public class InterfaceExample {
         B obj=new B();
         obj.show();
         obj.config();
+
+//        A.age=36; this gives error as var are final cannot be changed
     }
 }
